@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('CHECKOUT') {
             steps {
-                git 'your_github_repo_link'
+                git 'https://github.com/vvce23ise0101-eng/demo1.git'
             }
         }
 
