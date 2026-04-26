@@ -2,7 +2,7 @@ name: CI/CD java pipeline
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]   # change to main if your branch is main
 
 jobs:
   build:
@@ -18,4 +18,4 @@ jobs:
 
       - name: Build using Maven
         run: mvn clean install
-        #hi new work
+        working-directory: demo
